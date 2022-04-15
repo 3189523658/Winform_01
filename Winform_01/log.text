@@ -1,0 +1,24 @@
+[ 2022/4/15 16:04:14 ]：反序列化失败！
+System.IO.FileNotFoundException: Could not find file 'D:\C#Project\Practice\Winform_01\Winform_01\datasource.data'.
+File name: 'D:\C#Project\Practice\Winform_01\Winform_01\datasource.data'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Winform_01.Program.DeserializationDataSet() in D:\C#Project\Practice\Winform_01\Winform_01\Program.cs:line 130
+[ 2022/4/15 16:04:14 ]：通过Winform_01.Program.Initially()方法生成DataSet初始数据！
+[ 2022/4/15 16:04:14 ]：序列化DataSet对象为D:\C#Project\Practice\Winform_01\Winform_01\datasource.data文件成功！
+[ 2022/4/15 16:14:14 ]：序列化DataSet对象为D:\C#Project\Practice\Winform_01\Winform_01\datasource.data文件成功！
+[ 2022/4/15 18:25:22 ]：反序列化D:\C#Project\Practice\Winform_01\Winform_01\datasource.data文件为DataSet成功！
+[ 2022/4/15 18:25:42 ]：序列化DataSet对象为D:\C#Project\Practice\Winform_01\Winform_01\datasource.data文件成功！
+[ 2022/4/15 18:25:49 ]：序列化DataSet对象为D:\C#Project\Practice\Winform_01\Winform_01\datasource.data文件成功！
+[ 2022/4/15 18:26:36 ]：序列化DataSet对象为D:\C#Project\Practice\Winform_01\Winform_01\datasource.data文件成功！
+[ 2022/4/15 18:26:40 ]：序列化DataSet对象为D:\C#Project\Practice\Winform_01\Winform_01\datasource.data文件成功！
+[ 2022/4/15 18:27:01 ]：反序列化D:\C#Project\Practice\Winform_01\Winform_01\datasource.data文件为DataSet成功！
+[ 2022/4/15 18:28:01 ]：序列化DataSet对象为D:\C#Project\Practice\Winform_01\Winform_01\datasource.data文件成功！
+[ 2022/4/15 18:28:20 ]：序列化DataSet对象为D:\C#Project\Practice\Winform_01\Winform_01\datasource.data文件成功！
+[ 2022/4/15 18:31:49 ]：序列化DataSet对象为D:\C#Project\Practice\Winform_01\Winform_01\datasource.data文件成功！
+[ 2022/4/15 18:31:53 ]：序列化DataSet对象为D:\C#Project\Practice\Winform_01\Winform_01\datasource.data文件成功！
+[ 2022/4/15 18:31:57 ]：序列化DataSet对象为D:\C#Project\Practice\Winform_01\Winform_01\datasource.data文件成功！
